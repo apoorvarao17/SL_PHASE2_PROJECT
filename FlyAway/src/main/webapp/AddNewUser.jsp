@@ -56,6 +56,10 @@ if(x.equals(y) && free)
 	
 
 }
+else
+{
+	out1.println("<h2 style ='color:blue'>Passwords mismatch. Go back and re-enter </h2>");
+}
 out1.println("<a href='"+ request.getContextPath() + "/adminservlet?name=Admin'>Return to Admin options</a>");
 
 %>
